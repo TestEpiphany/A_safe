@@ -108,8 +108,7 @@ public class A_safe_WebPage {
 		public void Contact_Page() {			
 		driver.findElement(By.xpath("/html/body/div[1]/header/div/div[2]/div/ul/li[7]/a")).click(); //
 		String title = driver.getTitle();
-		System.out.println(title);
-		
+		System.out.println(title);		
 		
 		
 		driver.findElement(By.xpath("//*[@id=\"f6718dda-0e45-48f9-bf8f-ecfe8a500a9e\"]")).sendKeys(contacts[2]);
