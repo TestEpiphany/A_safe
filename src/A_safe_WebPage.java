@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 public class A_safe_WebPage {
 	
 	 String[] contacts = {"Emma@gmail.com","07986466423","Delelel","EpiphanyCompany",
@@ -33,7 +32,6 @@ public class A_safe_WebPage {
 		driver.close();
 		
 		}
-
 		
 		@Test
 		public void A_Safe_Logo_LandingPage() {			
